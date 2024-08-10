@@ -1,5 +1,4 @@
-# HousePriceClassification
-An house price classification task, where LDA and DBSCAN are combined to perform crucial Intraclass outlier detection.
-A first analisys underlined a difficulty to discrimante successive price classes; after noticing that in the LDA (Linear Discriminant Analisys) space those classes are distributed as adjacent clusters,
-the application of DBSCAN algorithm to the single classes, aimng to eliminate those records lying in the region between two clusters resulted in an effective method, enchances the Precision of the algorithms tested.
-A well reasoned and statistically rigorous feature selection process has been also executed on the huge set of categorical and continuous feature sets.
+# LDA & DBSCAN for Outliers detection in Classification
+A house price classification task, where LDA and DBSCAN are combined to perform a crucial Intraclass outlier detection.
+A first analysis underlined the difficulty of discriminating between successive price classes; after noticing that in the LDA (Linear Discriminant Analysis) space, those classes are distributed as adjacent clusters, the application of the DBSCAN algorithm to the single classes, aiming to eliminate those records lying in the region between two clusters, resulted in an effective method that enhanced the Precision of the classification algorithms tested.
+A feature selection process has also been executed on the substantial (~50) categorical and continuous feature sets. The chi-squared test, feature permutation algorithm, and discrimination based on the feature's entropy and distribution have drastically reduced the feature space dimension to the essential characteristics determining the price of a house.
