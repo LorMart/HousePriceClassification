@@ -21,6 +21,19 @@ In addition to histograms, **Shannon entropy** was calculated for each attribute
   </tr>
 </table>
 
+<table style="border-collapse: collapse;">
+  <tr>
+    <td style="border: none;">
+      <img src="imgs/istogramma1.jpg" alt="Roof Material Histogram" width="100%">
+      <em>Figure 1: Roof Material Histogram</em>
+    </td>
+    <td style="border: none;">
+      <img src="imgs/istogramma2.jpg" alt="MasVnrType Histogram" width="100%">
+      <em>Figure 2: MasVnrType Histogram</em>
+    </td>
+  </tr>
+</table>
+
 Furthermore, the issue of potential **correlation** among subsets of categorical features was addressed. Strong correlations between features could interfere with the **Feature Permutation** algorithm, which was later used for **Feature Selection**. Therefore, a **chi-square independence test** was performed on the set of categorical features. The resulting **correlation matrix** was examined both **before** and **after** eliminating features based on histogram analysis and entropy. It was observed that most of the **correlated feature pairs** were eliminated following the screening process.
 
 
