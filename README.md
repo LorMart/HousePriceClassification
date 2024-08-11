@@ -14,7 +14,7 @@ In addition to histograms, **Shannon entropy** was calculated for each attribute
 </p>
 
 <p align="center">
-  <em>Respectively a Low (left) and High (right) informative features</em>
+  <em>Respectively, a highly (right) informative and a less(left) informative feature</em>
 </p>
 
 
