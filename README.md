@@ -28,5 +28,5 @@ Furthermore, the issue of potential **correlation** among subsets of categorical
 </p>
 
 <p align="center">
-  <em>Figure 3 and Figure 4: Chi-Square Test Correlation Matrix Before (left) and After (right) Feature Elimination</em>
+  <em>Chi-Square Test Correlation Matrix Before (left) and After (right) Feature Elimination</em>
 </p>
