@@ -2,7 +2,7 @@
 A house price classification task, where Linear Discriminanat Analysis (LDA) and DBSCAN are combined to perform a crucial Intraclass outlier detection.
 A first analysis underlined the difficulty of discriminating between adjacent (consecutive) price classes; after noticing that in the LDA (Linear Discriminant Analysis) space, the records belonging consecutive price classes are distributed as adjacent clusters, the application of the DBSCAN algorithm to the single classes (cluster), aiming to eliminate those records lying in the region between two clusters, resulted in an effective method that enhanced the Precision of the classification algorithms tested.
 A feature selection process has also been executed on the substantial (~50) categorical and continuous feature sets. The chi-squared test, feature permutation algorithm, and discrimination based on the feature's entropy and distribution have drastically reduced the feature space dimension preserving the essential characteristics determining the price of a house.
-## B. Feature Elimination
+##  Feature Elimination
 
 Given the **high dimensionality** of the dataset, it was necessary to identify which features could be **eliminated**. For **categorical attributes**, histograms were analyzed, where the distribution of records from various classes was highlighted in each bar. An **optimal categorical feature** not only has observations evenly distributed among its categories, but also tends to associate each class with a **unique value**, making it possible to distinguish between them by simply observing the attribute.
 
@@ -31,7 +31,7 @@ Furthermore, the issue of potential **correlation** among subsets of categorical
   <em>Chi-Square Test Correlation Matrix Before (left) and After (right) Feature Elimination</em>
 </p>
 
-## C. Intraclass Outlier Detection using **LDA** and **DBSCAN**
+##  Intraclass Outlier Detection using **LDA** and **DBSCAN**
 
 Initially, an **outlier detection** strategy was adopted by removing records outside the range between the **0.01%** and **99% quantiles** of individual quantitative features. However, after training several classifiers, it was observed that the **confusion matrix** showed that most classification errors resulted from records of a certain label being incorrectly classified as belonging to **adjacent price classes** (those just above or below). This suggests that, in the **feature space**, there might be overlapping regions between samples of different classes but with similar characteristics. These "**gray zones**" create difficulties for classifiers in determining the boundaries between classes, leading to classification errors predominantly for records located at the margins between two classes in the feature space.
 
