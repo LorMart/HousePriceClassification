@@ -9,12 +9,12 @@ Given the **high dimensionality** of the dataset, it was necessary to identify w
 In addition to histograms, **Shannon entropy** was calculated for each attribute to quantitatively measure the **quality** of each categorical feature. **High entropy** indicates a well-distributed attribute that is rich in information. Features with **low entropy** were considered less informative and candidates for elimination.
 
 <div style="display: flex; justify-content: space-between;">
-  <div style="text-align: left; width: 48%;">
-    <img src="imgs/istogramma1.jpg" alt="Roof Material Histogram" width="100%">
+  <div style="text-align: left; width: 45%;">
+    <img src="imgs/istogramma1.jpg" alt="Roof Material Histogram" width="45%">
     <em>Figure 1: Roof Material Histogram (Low Informative Feature)</em>
   </div>
-  <div style="text-align: left; width: 48%;">
-    <img src="imgs/istogramma2.jpg" alt="MasVnrType Histogram" width="100%">
+  <div style="text-align: left; width: 45%;">
+    <img src="imgs/istogramma2.jpg" alt="MasVnrType Histogram" width="45%">
     <em>Figure 2: MasVnrType Histogram (High Informative Feature)</em>
   </div>
 </div>
