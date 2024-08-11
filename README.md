@@ -48,4 +48,4 @@ Therefore, a more refined outlier detection technique was adopted, aimed at elim
   <em>Figure 3 and Figure 4: LDA Plot of Test Set. Different colours correspond to different classes.</em>
 </p>
 
-**Explore the interactive 3D LDA plots inside the folder Interactive_3D_LDA_graphs!**
+**Download and explore the interactive 3D LDA plots inside the folder Interactive_3D_LDA_graphs!**
