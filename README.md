@@ -10,7 +10,7 @@ In addition to histograms, **Shannon entropy** was calculated for each attribute
 
 **Figure 1: Histogram of Roof Material (Low Informative Feature)**  
 ![Roof Material Histogram](LDA-DBSCAN_forOutliersDetection
-/imgs/img1.png)
+/imgs/istogramma 1.png)
 
 Furthermore, the issue of potential **correlation** among subsets of categorical features was addressed. Strong correlations between features could interfere with the **Feature Permutation** algorithm, which was later used for **Feature Selection**. Therefore, a **chi-square independence test** was performed on the set of categorical features. The resulting **correlation matrix** was examined both **before** and **after** eliminating features based on histogram analysis and entropy. It was observed that most of the **correlated feature pairs** were eliminated following the screening process.
 
