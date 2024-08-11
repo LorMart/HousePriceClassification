@@ -24,8 +24,8 @@ from sklearn.svm import SVC
 from scipy.stats import chi2_contingency
 from scipy.stats.contingency import crosstab
 
-df = pd.read_csv('C:/Users/Loren/Documents/Polito/Business Intelligence/house_price_range/train_house_price_range.csv')
-test_df = pd.read_csv('C:/Users/Loren/Documents/Polito/Business Intelligence/house_price_range/test_house_price_range.csv')
+df = pd.read_csv('/train_house_price_range.csv')
+test_df = pd.read_csv('/test_house_price_range.csv')
 
 
 def replace_qualitative_values(df, columns, mapping):
