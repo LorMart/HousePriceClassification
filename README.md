@@ -50,8 +50,11 @@ Therefore, a more refined outlier detection technique was adopted, aimed at elim
 
 Explore the interactive 3D LDA plots by clicking the links below:
 
-- [3D LDA Plot 1 - Entire Dataset](Interactive_3D_LDA_graphs/DataSet_LDA.html): Visualize the LDA analysis applied to the entire dataset.
-- [3D LDA Plot 2 - Class 1](Interactive_3D_LDA_graphs/class0_LDA.html): Explore the LDA analysis for Class 1.
-- [3D LDA Plot 3 - Class 2](Interactive_3D_LDA_graphs/class1_LDA.html): Explore the LDA analysis for Class 2.
-- [3D LDA Plot 4 - Class 3](Interactive_3D_LDA_graphs/class2_LDA.html): Explore the LDA analysis for Class 3.
-- [3D LDA Plot 5 - Class 4](Interactive_3D_LDA_graphs/class3_LDA.html): Explore the LDA analysis for Class 4.
+
+Explore the interactive 3D LDA plots by clicking the links below:
+
+- [3D LDA Plot 1 - Entire Dataset](https://raw.githubusercontent.com/LorMart/LDA-DBSCAN_forOutliersDetection/main/Interactive_3D_LDA_graphs/DataSet_LDA.html): Visualize the LDA analysis applied to the entire dataset.
+- [3D LDA Plot 2 - Class 1](https://raw.githubusercontent.com/LorMart/LDA-DBSCAN_forOutliersDetection/main/Interactive_3D_LDA_graphs/class0_LDA.html): Explore the LDA analysis for Class 1.
+- [3D LDA Plot 3 - Class 2](https://raw.githubusercontent.com/LorMart/LDA-DBSCAN_forOutliersDetection/main/Interactive_3D_LDA_graphs/class1_LDA.html): Explore the LDA analysis for Class 2.
+- [3D LDA Plot 4 - Class 3](https://raw.githubusercontent.com/LorMart/LDA-DBSCAN_forOutliersDetection/main/Interactive_3D_LDA_graphs/class2_LDA.html): Explore the LDA analysis for Class 3.
+- [3D LDA Plot 5 - Class 4](https://raw.githubusercontent.com/LorMart/LDA-DBSCAN_forOutliersDetection/main/Interactive_3D_LDA_graphs/class3_LDA.html): Explore the LDA analysis for Class 4.
