@@ -9,8 +9,7 @@ Given the **high dimensionality** of the dataset, it was necessary to identify w
 In addition to histograms, **Shannon entropy** was calculated for each attribute to quantitatively measure the **quality** of each categorical feature. **High entropy** indicates a well-distributed attribute that is rich in information. Features with **low entropy** were considered less informative and candidates for elimination.
 
 **Figure 1: Histogram of Roof Material (Low Informative Feature)**  
-![Roof Material Histogram](LDA-DBSCAN_forOutliersDetection
-/imgs/istogramma 1.png)
+![Roof Material Histogram](imgs/istogramma1.jpg)
 
 Furthermore, the issue of potential **correlation** among subsets of categorical features was addressed. Strong correlations between features could interfere with the **Feature Permutation** algorithm, which was later used for **Feature Selection**. Therefore, a **chi-square independence test** was performed on the set of categorical features. The resulting **correlation matrix** was examined both **before** and **after** eliminating features based on histogram analysis and entropy. It was observed that most of the **correlated feature pairs** were eliminated following the screening process.
 
