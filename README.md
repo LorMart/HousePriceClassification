@@ -31,7 +31,7 @@ Furthermore, the issue of potential **correlation** among subsets of categorical
   <em>Chi-Square Test Correlation Matrix Before (left) and After (right) Feature Elimination</em>
 </p>
 
-### C. Intraclass Outlier Detection using **LDA** and **DBSCAN**
+## C. Intraclass Outlier Detection using **LDA** and **DBSCAN**
 
 Initially, an **outlier detection** strategy was adopted by removing records outside the range between the **0.01%** and **99% quantiles** of individual quantitative features. However, after training several classifiers, it was observed that the **confusion matrix** showed that most classification errors resulted from records of a certain label being incorrectly classified as belonging to **adjacent price classes** (those just above or below). This suggests that, in the **feature space**, there might be overlapping regions between samples of different classes but with similar characteristics. These "**gray zones**" create difficulties for classifiers in determining the boundaries between classes, leading to classification errors predominantly for records located at the margins between two classes in the feature space.
 
