@@ -40,8 +40,8 @@ Our hypotheses were confirmed by the **Linear Discriminant Analysis (LDA)** plot
 Therefore, a more refined outlier detection technique was adopted, aimed at eliminating not only outliers relative to the entire dataset but also those specific to individual classes. This technique involved applying the **DBSCAN clustering algorithm** on the data in the reduced feature space obtained through **LDA**. **DBSCAN** was chosen for its ability to identify clusters of arbitrary shapes and for its effectiveness in detecting outliers as points that do not belong to any cluster. Each price class was treated independently, and the algorithm was applied to detect and remove outliers within each class.
 
 <p align="center">
-  <img src="imgs/LDA_DBSCAN_3.png" alt="LDA Plot of Test Set" width="45%">
-  <img src="imgs/LDA_DBSCAN_2.png" alt="DBSCAN Outlier Detection" width="45%">
+  <img src="imgs/LDA_DBSCAN_1.png" alt="LDA Plot of Test Set" width="50%">
+  <img src="imgs/LDA_DBSCAN_3.png" alt="DBSCAN Outlier Detection" width="50%">
 </p>
 
 <p align="center">
