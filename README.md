@@ -22,13 +22,15 @@ In addition to histograms, **Shannon entropy** was calculated for each attribute
 
 Furthermore, the issue of potential **correlation** among subsets of categorical features was addressed. Strong correlations between features could interfere with the **Feature Permutation** algorithm, which was later used for **Feature Selection**. Therefore, a **chi-square independence test** was performed on the set of categorical features. The resulting **correlation matrix** was examined both **before** and **after** eliminating features based on histogram analysis and entropy. It was observed that most of the **correlated feature pairs** were eliminated following the screening process.
 
-<p align="center" style="display: flex; justify-content: space-between;">
+<div style="display: flex; justify-content: space-between; align-items: center;">
   <div style="text-align: center; width: 45%;">
-    <img src="imgs/CHI2_ConTutto.png" alt="Chi-Square Correlation Matrix Before" width="40%"><br>
+    <img src="imgs/CHI2_ConTutto.png" alt="Chi-Square Correlation Matrix Before" width="100%">
+    <br>
     <em>Figure 3: Chi-Square Test Correlation Matrix (Before Feature Elimination)</em>
   </div>
   <div style="text-align: center; width: 45%;">
-    <img src="imgs/CHI2_PostEliminazione.png" alt="Chi-Square Correlation Matrix After" width="40%"><br>
+    <img src="imgs/CHI2_PostEliminazione.png" alt="Chi-Square Correlation Matrix After" width="100%">
+    <br>
     <em>Figure 4: Chi-Square Test Correlation Matrix (After Feature Elimination)</em>
   </div>
-</p>
+</div>
