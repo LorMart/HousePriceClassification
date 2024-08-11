@@ -13,9 +13,8 @@ In addition to histograms, **Shannon entropy** was calculated for each attribute
   <img src="imgs/istogramma2.jpg" alt="MasVnrType Histogram" width="45%">
 </p>
 
-<p align="left">
-  <em>Figure 1: Roof Material Histogram (Low Informative Feature)</em><br>
-  <em>Figure 2: MasVnrType Histogram (High Informative Feature)</em>
+<p align="center">
+  <em>Respectively a Low (left) and High (right) informative features</em>
 </p>
 
 
