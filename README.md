@@ -24,11 +24,11 @@ Furthermore, the issue of potential **correlation** among subsets of categorical
 
 <p align="center" style="display: flex; justify-content: space-between;">
   <div style="text-align: center; width: 45%;">
-    <img src="imgs/CHI2_ConTutto.png" alt="Chi-Square Correlation Matrix Before" width="100%"><br>
+    <img src="imgs/CHI2_ConTutto.png" alt="Chi-Square Correlation Matrix Before" width="40%"><br>
     <em>Figure 3: Chi-Square Test Correlation Matrix (Before Feature Elimination)</em>
   </div>
   <div style="text-align: center; width: 45%;">
-    <img src="imgs/CHI2_PostEliminazione.png" alt="Chi-Square Correlation Matrix After" width="100%"><br>
+    <img src="imgs/CHI2_PostEliminazione.png" alt="Chi-Square Correlation Matrix After" width="40%"><br>
     <em>Figure 4: Chi-Square Test Correlation Matrix (After Feature Elimination)</em>
   </div>
 </p>
