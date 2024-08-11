@@ -4,9 +4,9 @@ A first analysis underlined the difficulty of discriminating between adjacent (c
 A feature selection process has also been executed on the substantial (~50) categorical and continuous feature sets. The chi-squared test, feature permutation algorithm, and discrimination based on the feature's entropy and distribution have drastically reduced the feature space dimension preserving the essential characteristics determining the price of a house.
 ## B. Feature Elimination
 
-Given the high dimensionality of the dataset, it was necessary to identify which features could be eliminated. For categorical attributes, we analyzed their histograms, where the distribution of records from various classes was highlighted in each bar. An optimal categorical feature not only has observations evenly distributed among its categories, but also tends to associate each class with a unique value, making it possible to distinguish between them by simply observing the attribute.
+Given the **high dimensionality** of the dataset, it was necessary to identify which features could be **eliminated**. For **categorical attributes**, we analyzed their **histograms**, where the distribution of records from various classes was highlighted in each bar. An **optimal categorical feature** not only has observations evenly distributed among its categories, but also tends to associate each class with a **unique value**, making it possible to distinguish between them by simply observing the attribute.
 
-In addition to histograms, Shannon entropy was calculated for each attribute to quantitatively measure the quality of each categorical feature. High entropy indicates a well-distributed attribute that is rich in information. Features with low entropy were considered less informative and candidates for elimination.
+In addition to histograms, **Shannon entropy** was calculated for each attribute to quantitatively measure the **quality** of each categorical feature. **High entropy** indicates a well-distributed attribute that is rich in information. Features with **low entropy** were considered less informative and candidates for elimination.
 
 **Figure 1: Histogram of Roof Material (Low Informative Feature)**  
 ![Roof Material Histogram](LDA-DBSCAN_forOutliersDetection
