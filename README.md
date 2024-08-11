@@ -30,24 +30,11 @@ Furthermore, the issue of potential **correlation** among subsets of categorical
 <table style="border-collapse: collapse;">
   <tr>
     <td style="border: none;">
-      <img src="imgs/istogramma1.jpg" alt="Roof Material Histogram" width="100%">
-      <em>Figure 1: Roof Material Histogram</em>
-    </td>
-    <td style="border: none;">
-      <img src="imgs/istogramma2.jpg" alt="MasVnrType Histogram" width="100%">
-      <em>Figure 2: MasVnrType Histogram</em>
-    </td>
-  </tr>
-</table>
-
-<table style="border-collapse: collapse;">
-  <tr>
-    <td style="border: none;">
-      <img src="imgs/CHI2_ConTutto.png" alt="Chi-Square Correlation Matrix Before" width="100%">
+      <img src="imgs/CHI2_ConTutto.png" alt="Chi-Square Correlation Matrix Before" width="70%">
       <em>Figure 3: Chi-Square Test Correlation Matrix (Before Feature Elimination)</em>
     </td>
     <td style="border: none;">
-      <img src="imgs/CHI2_PostEliminazione.png" alt="Chi-Square Correlation Matrix After" width="100%">
+      <img src="imgs/CHI2_PostEliminazione.png" alt="Chi-Square Correlation Matrix After" width="70%">
       <em>Figure 4: Chi-Square Test Correlation Matrix (After Feature Elimination)</em>
     </td>
   </tr>
