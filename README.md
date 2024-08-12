@@ -18,7 +18,7 @@ In addition to histograms, **Shannon entropy** was calculated for each attribute
 
 
 
-Furthermore, the potential **correlation** among subsets of categorical features was addressed. Strong correlations between features could interfere with the **Feature Permutation** algorithm, which was later used for **Feature Selection**. Therefore, a **chi-square independence test** was performed on categorical features. The resulting **correlation matrix** was examined both **before** and **after**, eliminating features based on histogram analysis and entropy. It was observed that most of the **correlated feature pairs** were eliminated following the screening process.
+Furthermore, the potential **correlation** among subsets of categorical features was addressed. Strong correlations between features could interfere with the **Feature Permutation** algorithm, which was later used for **Feature Selection**. Therefore, a **chi-square independence test** was performed on categorical features. The resulting **correlation matrix** was examined both **before** and **after** eliminating features based on histogram analysis and entropy. It was observed that most of the **correlated feature pairs** were eliminated following the screening process.
 
 <p align="center">
   <img src="imgs/CHI2_ConTutto.png" alt="Chi-Square Correlation Matrix Before" width="45%">
